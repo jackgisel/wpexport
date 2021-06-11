@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Terminal &#8211; Jack Gisel</title>
+	<atom:link href="https://jackgisel.com/tag/terminal/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jackgisel.com/</link>
+	<description>A Software Engineer, Freelancer, &#38; More</description>
+	<lastBuildDate>Tue, 29 Dec 2020 15:21:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://jackgisel.com/wp-content/uploads/2020/11/cropped-1-32x32.png</url>
+	<title>Terminal &#8211; Jack Gisel</title>
+	<link>https://jackgisel.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Find usage of the term in a project directory</title>
+		<link>https://jackgisel.com/2020/12/29/find-usage-of-the-term-in-a-project-directory/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=find-usage-of-the-term-in-a-project-directory</link>
+					<comments>https://jackgisel.com/2020/12/29/find-usage-of-the-term-in-a-project-directory/#respond</comments>
+		
+		<dc:creator><![CDATA[jack]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 15:21:21 +0000</pubDate>
+				<category><![CDATA[TIL]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Terminal]]></category>
+		<guid isPermaLink="false">https://jackgisel.com/?p=255</guid>
+
+					<description><![CDATA[Recently I was using a terminal more often while I had VS Code open for editing my text files. VS Code search can be effective, but often times slows down he process. I am sure if I used a more powerful IDE that wouldn&#8217;t be an issue, but I recently found out I could use [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Recently I was using a terminal more often while I had VS Code open for editing my text files. VS Code search can be effective, but often times slows down he process. I am sure if I used a more powerful IDE that wouldn&#8217;t be an issue, but I recently found out I could use this command for searching my project repo or folders in a repo to find usage of a term!</p>
+
+
+
+<pre class="wp-block-code"><code>grep -R {looking_for?} {directory} 
+
+// example: find the usage of the NiceButton component in the src directory 
+ 
+grep -R NiceButton src</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jackgisel.com/2020/12/29/find-usage-of-the-term-in-a-project-directory/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

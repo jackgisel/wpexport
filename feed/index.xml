@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Jack Gisel</title>
+	<atom:link href="https://jackgisel.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jackgisel.com/</link>
+	<description>A Software Engineer, Freelancer, &#38; More</description>
+	<lastBuildDate>Tue, 05 Jan 2021 14:17:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+
+<image>
+	<url>https://jackgisel.com/wp-content/uploads/2020/11/cropped-1-32x32.png</url>
+	<title>Jack Gisel</title>
+	<link>https://jackgisel.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Tech I want to learn in 2021</title>
+		<link>https://jackgisel.com/2021/01/05/tech-i-want-to-learn-in-2021/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tech-i-want-to-learn-in-2021</link>
+					<comments>https://jackgisel.com/2021/01/05/tech-i-want-to-learn-in-2021/#respond</comments>
+		
+		<dc:creator><![CDATA[jack]]></dc:creator>
+		<pubDate>Tue, 05 Jan 2021 14:17:40 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://jackgisel.com/?p=272</guid>
+
+					<description><![CDATA[As we enter 2021 I have decided to bring together of technologies I would like to learn by testing them out. Here they are in no specific order: Chakra UIMost of my projects, if not all are using React which is why I lean towards Chakra over Tailwind. I like Chakra (haven&#8217;t used it), because [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>As we enter 2021 I have decided to bring together of technologies I would like to learn by testing them out. Here they are in no specific order:</p>
+
+
+
+<ol><li><a href="https://chakra-ui.com/">Chakra UI</a><br>Most of my projects, if not all are using React which is why I lean towards Chakra over Tailwind. I like Chakra (haven&#8217;t used it), because it looks a lot like <a href="https://github.com/Shopify/restyle">@shopify/restyle</a> which I absolutely love for React Native development.</li><li><a href="https://www.prisma.io/">Prisma</a><br>My experience with GraphQL is pretty limited to open-source API&#8217;s or a boilerplate code setup. I would love to start from scratch building a GraphQL backend and integrate that into my own mobile app.</li><li><a href="https://go.bitrise.io/react-native-continuous-integration-and-delivery-on-bitrise?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=UA-14-ReactNative&amp;utm_term=14a-ReactNativeCICD-dynamicadgroup&amp;gclid=CjwKCAiAudD_BRBXEiwAudakX7cJB3abDhrDxQY96rl4P4sZVzsIWuZqACIWoWtYkbmNMALbfJlI0BoC61sQAvD_BwE">Bitrise</a><br>I have been doing a lot of React Native for the past year now and getting pretty deep into the eco system. I am really enjoying finding better ways to industrialize the product and ship it easier. I think Bitrise could help me do that.</li></ol>
+
+
+
+<p></p>
+
+
+
+<p>More coming soon!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jackgisel.com/2021/01/05/tech-i-want-to-learn-in-2021/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Find usage of the term in a project directory</title>
+		<link>https://jackgisel.com/2020/12/29/find-usage-of-the-term-in-a-project-directory/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=find-usage-of-the-term-in-a-project-directory</link>
+					<comments>https://jackgisel.com/2020/12/29/find-usage-of-the-term-in-a-project-directory/#respond</comments>
+		
+		<dc:creator><![CDATA[jack]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 15:21:21 +0000</pubDate>
+				<category><![CDATA[TIL]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[Terminal]]></category>
+		<guid isPermaLink="false">https://jackgisel.com/?p=255</guid>
+
+					<description><![CDATA[Recently I was using a terminal more often while I had VS Code open for editing my text files. VS Code search can be effective, but often times slows down he process. I am sure if I used a more powerful IDE that wouldn&#8217;t be an issue, but I recently found out I could use [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Recently I was using a terminal more often while I had VS Code open for editing my text files. VS Code search can be effective, but often times slows down he process. I am sure if I used a more powerful IDE that wouldn&#8217;t be an issue, but I recently found out I could use this command for searching my project repo or folders in a repo to find usage of a term!</p>
+
+
+
+<pre class="wp-block-code"><code>grep -R {looking_for?} {directory} 
+
+// example: find the usage of the NiceButton component in the src directory 
+ 
+grep -R NiceButton src</code></pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jackgisel.com/2020/12/29/find-usage-of-the-term-in-a-project-directory/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Building a social media app with a cost per user of less than $0.00005</title>
+		<link>https://jackgisel.com/2020/11/02/how-i-built-a-social-media-with-a-cpu-of-0-00006/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-i-built-a-social-media-with-a-cpu-of-0-00006</link>
+					<comments>https://jackgisel.com/2020/11/02/how-i-built-a-social-media-with-a-cpu-of-0-00006/#respond</comments>
+		
+		<dc:creator><![CDATA[jack]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2020 21:53:44 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[tech]]></category>
+		<guid isPermaLink="false">http://216.98.11.185/?p=118</guid>
+
+					<description><![CDATA[I recently was contracted to build an MVP of a product for a new app. The app is called Nexus, feel free to check it out here. Nexus is a contact sharing app where users can share information fast and effectively. My main goal when building this project was focusing on scalability, cost, and maximizing [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>I recently was contracted to build an MVP of a product for a new app. The app is called Nexus, <em><a href="https://shopnexus.co/" data-type="URL" data-id="https://shopnexus.co/">feel free to check it out here.</a></em> Nexus is a contact sharing app where users can share information fast and effectively. My main goal when building this project was focusing on scalability, cost, and maximizing speed as much as possible.</p>
+
+
+
+<h3>The Stack</h3>
+
+
+
+<p>Due to the constraints of time and wanting to create an identical experience for both iOS and Android it made total sense to chose <a rel="noreferrer noopener" href="https://reactnative.dev/" target="_blank">React Native</a>, which if you are unfamiliar allows you to write Javascript and React to build stateful interfaces that get transposed into native code.</p>
+
+
+
+<p><span style="text-decoration: underline;">Frontend</span></p>
+
+
+
+<ul><li>React Native</li><li>Redux + Redux Toolkit (State Management)</li><li>Reanimated (Animations)</li><li>Formik + Yup (Forms and Validations)</li><li>@Shopify/Restyle (Managing Styling)</li></ul>
+
+
+
+<p>Where the project gets interesting is the backend. To optimize for the constraints of this project I wanted to chose a platform that I had experience with and would allow us to be flexible. I fell on <a rel="noreferrer noopener" href="https://firebase.google.com/" data-type="URL" data-id="https://firebase.google.com/" target="_blank">Firebase</a>. Firebase is powerful and jam-packed with tools for backends.</p>
+
+
+
+<h5>How did you keep cost down?</h5>
+
+
+
+<p>I used Firestore, which is a NoSQL database where you are charged <em>majorly</em> for your read and writes to the database. Because of this, I built data structures that were extremely easy to maintain and required limited fetching. I used caching methods to store &#8220;stale&#8221; data but refreshed the cache on the main document on an as-needed use case.</p>
+
+
+
+<p>One fear I had using a NoSQL database was security. Because of this, I wanted to use Firebase Cloud Functions (Serverless functions) to ensure document integrity. My security rules are really quite simple. </p>
+
+
+
+<p><em>If a user owns a document, he was permission to create or update that document. Otherwise only our functions can delete or update a user&#8217;s document.</em></p>
+
+
+
+<p>Because of this simplified logic, all relations in our database are enforced and then cached by our cloud functions!! <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/1f525.png" alt="🔥" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>I was extremely happy with how this turned out. And after running the numbers on an average use case of a user using the app 1 time a day 6 days a week, I was able to show that the average cost per user would be below $0.00005. This number is greatly impacted by the <strong>caching tactic. </strong></p>
+
+
+
+<p>This was a brief over view of the architecture of a freelance application I made. This was really informal as it was my first post. But I expect to get better and write more often!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jackgisel.com/2020/11/02/how-i-built-a-social-media-with-a-cpu-of-0-00006/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
